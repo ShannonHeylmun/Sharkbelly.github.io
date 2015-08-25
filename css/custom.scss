@@ -1,22 +1,17 @@
 @import "mixins.scss";
 @import "vars.scss";
 
+
+h1{
+
+}
 .jumbotron{
   h1{
     text-align: center;
-    span:last-of-type:before{
-      content:"\000A";
-      white-space: pre;
-    }
-    span:first-of-type{
-      @include col-xs-only {
-        display: none;
-      }
-      &:after{
-        @include col-sm-up {
-          content:" ";
-          white-space: pre;
-        }
+    span:last-of-type{
+      &:before {
+        content: "\000A";
+        white-space: pre;
       }
     }
   }
@@ -24,10 +19,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 250px;
   }
 }
 
 section{
+  h1, h2{
+    @include col-xs-only{
+      text-align: center;
+    }
+  }
   h1{
     color: $nemours-red;
   }
@@ -93,6 +94,12 @@ nav{
         display: none;
         a{
           margin-left: 20px;
+        }
+        li.active{
+          border-left: $active-border solid $nemours-blue;
+          a {
+            padding-left: calc(15px - #{$active-border});
+          }
         }
       }
     }

@@ -3,18 +3,15 @@
   .jumbotron h1 span:last-of-type:before {
     content: "\000A";
     white-space: pre; }
-  @media (max-width: 767px) {
-    .jumbotron h1 span:first-of-type {
-      display: none; } }
-  @media (min-width: 767px) {
-    .jumbotron h1 span:first-of-type:after {
-      content: " ";
-      white-space: pre; } }
 .jumbotron img {
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  width: 250px; }
 
+@media (max-width: 767px) {
+  section h1, section h2 {
+    text-align: center; } }
 section h1 {
   color: #e50037; }
 section h1:first-of-type {
@@ -46,11 +43,11 @@ section .imgWrapper {
   top: 20px; }
 
 nav * {
-  color: #1181d1; }
+  color: #039be0; }
   nav *:hover, nav *.active {
     background-color: white !important; }
 nav > ul > .active > a {
-  border-left: 2px solid #1181d1;
+  border-left: 2px solid #039be0;
   padding-left: calc(15px - 2px); }
 nav ul {
   list-style: none; }
@@ -60,5 +57,9 @@ nav > ul > li ul {
   display: none; }
   nav > ul > li ul a {
     margin-left: 20px; }
+  nav > ul > li ul li.active {
+    border-left: 2px solid #039be0; }
+    nav > ul > li ul li.active a {
+      padding-left: calc(15px - 2px); }
 
 /*# sourceMappingURL=custom.css.map */
