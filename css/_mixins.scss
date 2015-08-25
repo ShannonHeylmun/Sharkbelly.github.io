@@ -1,0 +1,42 @@
+@mixin col-xs-only() {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+@mixin col-sm-up() {
+  @media (min-width: 767px) {
+    @content;
+  }
+}
+@mixin col-sm-only() {
+  @media (min-width: 768px) and (max-width: 991px) {
+    @content;
+  }
+}
+@mixin col-md-up() {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin col-md-only() {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    @content;
+  }
+}
+@mixin col-lg-only() {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
