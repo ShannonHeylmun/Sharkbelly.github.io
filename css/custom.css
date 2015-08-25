@@ -1,19 +1,27 @@
-.jumbotron h1 {
-  text-align: center; }
-  .jumbotron h1 span:last-of-type:before {
-    content: "\000A";
-    white-space: pre; }
-.jumbotron img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px; }
+body {
+  font-family: 'Open Sans', sans-serif; }
+  body p {
+    font-family: 'Merriweather', serif; }
+
+.jumbotron {
+  font-weight: 700; }
+  .jumbotron h1 {
+    text-align: center; }
+    .jumbotron h1 span:last-of-type:before {
+      content: "\000A";
+      white-space: pre; }
+  .jumbotron img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px; }
 
 @media (max-width: 767px) {
   section h1, section h2 {
     text-align: center; } }
 section h1 {
-  color: #e50037; }
+  color: #039be0;
+  font-weight: 700; }
 section h1:first-of-type {
   margin-top: 0; }
 section p, section ol, section ul, section div {
@@ -53,7 +61,8 @@ nav ul {
   list-style: none; }
 nav > ul > li.active > ul {
   display: block;
-  font-size: small; }
+  font-size: small;
+  font-weight: 300; }
 nav > ul > li ul {
   display: none; }
   nav > ul > li ul a {
