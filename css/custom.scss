@@ -87,6 +87,7 @@ nav{
     > li.active {
       > ul {
         display: block;
+        font-size: small;
       }
     }
     >li {
@@ -103,5 +104,11 @@ nav{
         }
       }
     }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 100% !important;
   }
 }

@@ -52,7 +52,8 @@ nav > ul > .active > a {
 nav ul {
   list-style: none; }
 nav > ul > li.active > ul {
-  display: block; }
+  display: block;
+  font-size: small; }
 nav > ul > li ul {
   display: none; }
   nav > ul > li ul a {
@@ -61,5 +62,9 @@ nav > ul > li ul {
     border-left: 2px solid #039be0; }
     nav > ul > li ul li.active a {
       padding-left: calc(15px - 2px); }
+
+@media (max-width: 992px) {
+  .container {
+    width: 100% !important; } }
 
 /*# sourceMappingURL=custom.css.map */
