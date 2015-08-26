@@ -32,6 +32,11 @@ h3{
   text-align: center;
 }
 
+article{
+  section &:last-child{
+    margin-bottom: 60px;
+  }
+}
 section{
   h1, h2{
     @include col-xs-only{
@@ -45,10 +50,13 @@ section{
   h1:first-of-type{
     margin-top: 0;
   }
-  p,ol,ul,div{
-    margin-bottom: 20px;
+  p{
+    margin: 18px 0;
+  }
+  >div{
+    margin-bottom: 36px;
     &:last-child{
-      margin-bottom: 40px;
+      margin-bottom: 60px;
     }
   }
 
@@ -66,8 +74,6 @@ section{
     height: 100%;
   }
   .imgWrapper{
-    margin-bottom:8px;
-    padding: 10px;
     img{
       box-shadow: 0 0 10px #000;
       width: 100%;
