@@ -36,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6171875">
-              <caret line="192" column="84" selection-start-line="192" selection-start-column="84" selection-end-line="192" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.3328125">
+              <caret line="163" column="48" selection-start-line="163" selection-start-column="48" selection-end-line="163" selection-end-column="48" />
               <folding>
                 <element signature="n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#article#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -46,7 +46,6 @@
                 <element signature="n#section#3;n#article#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#3;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#article#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#article#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -514,12 +513,12 @@
       <updated>1440454505919</updated>
       <workItem from="1440454510682" duration="5384000" />
       <workItem from="1440513859792" duration="18430000" />
-      <workItem from="1440600213592" duration="9345000" />
+      <workItem from="1440600213592" duration="9467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33159000" />
+    <option name="totallyTimeSpent" value="33281000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,7 +582,6 @@
             <element signature="n#section#3;n#article#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#article#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#article#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -624,7 +622,6 @@
             <element signature="n#section#3;n#article#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#article#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#article#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -718,8 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6171875">
-          <caret line="192" column="84" selection-start-line="192" selection-start-column="84" selection-end-line="192" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.3328125">
+          <caret line="163" column="48" selection-start-line="163" selection-start-column="48" selection-end-line="163" selection-end-column="48" />
           <folding>
             <element signature="n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#article#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -728,7 +725,6 @@
             <element signature="n#section#3;n#article#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#article#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#article#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#article#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
