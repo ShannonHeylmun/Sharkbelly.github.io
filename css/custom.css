@@ -16,6 +16,9 @@ body {
     margin-right: auto;
     width: 250px; }
 
+h3 {
+  text-align: center; }
+
 @media (max-width: 767px) {
   section h1, section h2 {
     text-align: center; } }

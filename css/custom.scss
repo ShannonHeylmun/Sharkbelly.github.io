@@ -26,6 +26,12 @@ body{
   }
 }
 
+
+
+h3{
+  text-align: center;
+}
+
 section{
   h1, h2{
     @include col-xs-only{
